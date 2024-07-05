@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#portfolio::-webkit-scrollbar {
+  width: 5px;
+}
+
+#portfolio::-webkit-scrollbar-thumb {
+  background: #aa71e3;
+  border-radius: 50px;
+}
+section[id] {
+  scroll-margin-top: 70px;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
