@@ -1,0 +1,10 @@
+<section class="container mx-auto" id="services">
+  <h2 class="font-bold text-background text-5xl text-center max-md:text-4xl max-md:mr-2 pt-6 pb-8 ">Servicios</h2>
+  <div class="grid place-items-center">
+    <div class="grid grid-cols-5 gap-5 place-content-center max-md:grid-cols-1">
+      @for (item of InformationCardService; track $index) {
+      <service-card [imgService]="item.image" [title]="item.title" [description]="item.description"></service-card>
+      }
+    </div>
+  </div>
+</section>
