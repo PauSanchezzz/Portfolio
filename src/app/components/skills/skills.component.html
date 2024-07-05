@@ -1,0 +1,8 @@
+<section class="grid gap-2 mx-2 justify-center items-center" id="skills">
+  <h2 class="font-bold text-background text-5xl text-center max-md:text-4xl max-md:mr-2 py-6">Habilidades</h2>
+  <div class=" grid grid-rows-2 grid-flow-col gap-4 items-center max-md:overflow-x-auto">
+    @for (skill of Skills; track $index) {
+    <skill-card [hover]="skill.colorHover" [imageSkill]="skill.imageSkill" />
+    }
+  </div>
+</section>
