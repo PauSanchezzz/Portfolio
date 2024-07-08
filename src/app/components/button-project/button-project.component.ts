@@ -9,4 +9,5 @@ import { Component, Input } from '@angular/core';
 export class ButtonProjectComponent {
   @Input() imageButton: string = '';
   @Input() nameButton: string = '';
+  @Input() link: string = '';
 }
