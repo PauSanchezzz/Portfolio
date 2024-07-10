@@ -1,0 +1,41 @@
+<section class="bg-[#DDCBFC] pt-10" id="projects">
+  <div class="flex items-center justify-center">
+    <img class="w-20 mr-4 max-md:mr-2" src="/svg/code.svg" alt="">
+    <h2 class="font-bold text-background text-5xl text-center max-md:text-4xl max-md:mr-2">Mis Proyectos</h2>
+  </div>
+  <div class="grid place-items-center">
+    @for (project of Projects; track $index){
+    <article class="grid grid-cols-2 pt-12 w-[85%] gap-8 place-items-center max-sm:grid-cols-1">
+      <img class="w-[100%] border-2 border-background rounded-lg " [src]="project.imageProject" alt="">
+      <div class="">
+        <h1 class="font-bold text-background text-3xl  max-sm:text-xl">{{project.titleProject}}</h1>
+        <div
+          class="grid grid-col-4 grid-flow-col max-md:grid-cols-2 max-md:grid-flow-row  max-md:gap-2 py-3 justify-start">
+
+          @for (tech of project.technologies; track $index) {
+          <technology-project [background]="tech.background" [hover]="tech.colorHover"
+            [imgTechnology]="tech.imgTechnology" [title]="tech.title" />
+          }
+        </div>
+        @if(project.descriptionProject.includes('Kotlin');){
+        <p class="text-background text-lg text-justify>">{{project.descriptionProject}} <a target="_blank"
+            class="underline" href="https://www.linkedin.com/in/dangarciadh/">{{ 'Daniel García'
+            }}</a>.</p>
+        <div class="flex gap-3">
+          <button-project [link]="project.github" imageButton="/svg/github.svg" nameButton="Código"></button-project>
+          <button-project [link]="project.figma" imageButton="/svg/figmab.svg" nameButton="Figma"></button-project>
+        </div>
+
+        }@else if (project.descriptionProject.includes('dashboard');) {
+        <p class="text-background text-lg text-justify>">{{project.descriptionProject}}</p>
+        <button-project [link]="project.powerbi" imageButton="/svg/dashboard.svg" nameButton="Dashboard"></button-project>
+        }
+        @else {
+        <p class="text-background text-lg text-justify>">{{project.descriptionProject}}</p>
+        <button-project [link]="project.github" imageButton="/svg/github.svg" nameButton="Código"></button-project>
+        }
+      </div>
+    </article>
+    }
+  </div>
+</section>

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title-welcome {
+  -webkit-text-stroke: 1.5px #ddcbfc;
+}
+
+@layer components {
+  .img-rounded {
+    @apply rounded-br-[40px] rounded-tl-[40px] rounded-bl-[10px] rounded-tr-[10px];
+  }
+}

@@ -1,0 +1,37 @@
+<section id="contact">
+  <h2 class="font-bold text-background text-5xl text-center max-md:text-4xl max-md:mr-2 py-6">¡Trabajemos Juntos!
+  </h2>
+  <article class="grid grid-cols-3 place-content-center justify-items-center lg:mx-96 pt-5">
+
+    <div>
+      <a target="_blank" href="https://www.linkedin.com/in/paula-andrea-sanchez-torres/">
+        <contact-card [imageCard]="'svg/linkedinContact.svg'" [title]="'Linkedin'"></contact-card>
+      </a>
+    </div>
+
+    <div>
+      <button (click)="copyEmail()">
+        <div class="drop-shadow-3xl bg-background size-28 px-4 py-4 rounded-lg text-center">
+          <div class="flex justify-center items-center py-2">
+            @if(copied){
+            <div class="absolute pb-28 transition-opacity duration-700">
+              <span
+                class="inline-block items-center bg-hover text-background text-xs font-medium px-2.5 py-1 rounded-full">
+                ¡Copiaste mi correo!
+              </span>
+            </div>
+            }
+            <img class="w-12" src="/svg/gmailContact.svg" alt="">
+          </div>
+          <h1 class="text-lg text-textHome font-bold text-center">Correo</h1>
+        </div>
+      </button>
+    </div>
+
+    <div>
+      <a target="_blank" href="https://github.com/PauSanchezzz">
+        <contact-card [imageCard]="'/svg/github.svg'" [title]="'GitHub'"></contact-card>
+      </a>
+    </div>
+  </article>
+</section>
