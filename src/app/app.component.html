@@ -1,18 +1,18 @@
 <app-header />
-<article class="pt-[60px]" id="home">
-  <section class="grid grid-cols-2 place-items-center max-sm:grid-cols-1 pt-12 h-[62vh]">
+<article class="pt-[60px] relative h-full" id="home">
+  <div class="absolute bottom-0">
+    <img class="w-screen" src="/svg/waveHome.svg" alt="">
+  </div>
+  <section class="grid grid-cols-2 place-items-center max-sm:grid-cols-1 pt-12 h-[62vh] gap-10">
     <div class="leading-10 text-center">
       <h2 class="font-extrabold text-transparent text-7xl title-welcome max-sm:text-5xl ">¡Hola!, soy</h2>
       <h1 class="font-bold text-textHome text-7xl tracking-wide py-8 max-sm:text-5xl">Paula Sanchez</h1>
       <app-rol />
     </div>
-    <div class="max-sm:py-4 px-4 z-10">
-      <img class="w-96 h-110 img-rounded max-md:w-80 " src="my-image.jpg" alt="">
+    <div class="z-10">
+      <img class="w-96 img-rounded max-md:w-72" src="my-image.jpg" alt="">
     </div>
   </section>
-  <div class="">
-    <img class="w-screen" src="/svg/waveHome.svg" alt="">
-  </div>
 </article>
 
 <section class="bg-[#DDCBFC] pb-6" id="about-me">
@@ -20,7 +20,7 @@
     <img class="w-20 mr-4 max-md:mr-2" src="/svg/code.svg" alt="">
     <h2 class="font-bold text-background text-5xl text-center max-md:text-4xl max-md:mr-2">Sobre mí</h2>
   </div>
-  <div class="grid grid-cols-3  mx-32 gap-8 max-md:grid-cols-1 max-md:mx-10 max-md:pt-5 ">
+  <main class="grid grid-cols-3  mx-32 gap-8 max-md:grid-cols-1 max-md:mx-10 max-md:pt-5 ">
     <p class="text-background text-xl text-justify col-span-2 place-content-center mx-5 max-md:mx-0">Soy una
       desarrolladora
       apasionada de la ciudad de Bogotá,
@@ -35,7 +35,7 @@
     <div class="flex justify-center ">
       <img class="w-96" src="programmer-girl.png" alt="">
     </div>
-  </div>
+  </main>
   <app-skills />
   <app-services />
   <app-projects />

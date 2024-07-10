@@ -20,6 +20,7 @@ export class ProjectsComponent {
         'https://github.com/PauSanchezzz/CatChat/blob/main/src/client/public/cat3.png?raw=true',
       github: 'https://github.com/PauSanchezzz/CatChat',
       figma: '',
+      powerbi: '',
       technologies: [
         {
           background: 'bg-tecnology-blue',
@@ -52,8 +53,10 @@ export class ProjectsComponent {
       descriptionProject:
         'Este dashboard, basado en un documento de Datos Abiertos de Bogotá, muestra la cifra de animales registrados hasta 2019 con microchips en diferentes zonas de la ciudad. Relaciona hembras y machos, especies (felinos y caninos), razas preferidas por estratos, y proporciona una lista de nombres, destacando los más frecuentes y los únicos.',
       imageProject: 'dashboard.png',
-      github: 'https://github.com/PauSanchezzz/CatChat',
+      github: '',
       figma: '',
+      powerbi:
+        'https://app.powerbi.com/view?r=eyJrIjoiMWVlYjFjZjEtZmU1Yy00MDZiLWFhYTItYjk0NDg5ZjBlODUwIiwidCI6ImQ1MTM4OGVmLTZhYjAtNDM2My05Zjk0LWQ1NjY0NGE0NTk3MCIsImMiOjR9',
       technologies: [
         {
           background: 'bg-[#4CAB7B]',
@@ -80,8 +83,9 @@ export class ProjectsComponent {
       descriptionProject:
         'Sitio web desarrollado para mostrar mis habilidades, proyectos y experiencias como desarrolladora. Creado con Angular 17+, HTML, CSS y Tailwind. Este portafolio incluye secciones dedicadas a mis proyectos destacados, habilidades técnicas, servicios y contacto. Además, cuenta con un diseño responsive y un menú superpuesto al contenido para una navegación intuitiva en dispositivos móviles.',
       imageProject: 'portfolio.jpg',
-      github: 'https://github.com/PauSanchezzz/CatChat',
+      github: 'https://github.com/PauSanchezzz/Portfolio/tree/main',
       figma: '',
+      powerbi: '',
       technologies: [
         {
           background: 'bg-background',
@@ -113,10 +117,11 @@ export class ProjectsComponent {
       titleProject: 'Life Chronicles',
       descriptionProject:
         'Aplicación móvil desarrollada con Kotlin y Jetpack Compose que ofrece una lista variada de lugares y planes en Bogotá. Permite explorar categorías de actividades con descripciones e imágenes, y cuenta con funciones de inicio de sesión, registro y perfil de usuario, utilizando Firebase. El proyecto fue desarrollado en colaboración con',
-      imageProject:
-        'https://github.com/PauSanchezzz/CatChat/blob/main/src/client/public/cat3.png?raw=true',
-      github: 'https://github.com/PauSanchezzz/CatChat',
-      figma: 'https://www.youtube.com/',
+      imageProject: 'android.jpg',
+      github: 'https://github.com/PauSanchezzz/LifeChronicles',
+      figma:
+        'https://www.figma.com/design/iNQglGD2qkIdZ7rHrJ1zBL/Componentes-M3?node-id=0-1',
+      powerbi: '',
       technologies: [
         {
           background: 'bg-background',
@@ -145,7 +150,4 @@ export class ProjectsComponent {
       ],
     },
   ];
-  isSpecialName(name: string): boolean {
-    return name === 'Kotlin';
-  }
 }
