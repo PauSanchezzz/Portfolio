@@ -13,31 +13,31 @@ export class ServicesComponent {
   InformationCardService = [
     {
       title: 'Diseño Web UI/UX',
-      image: '/svg/design.svg',
+      image: './Portfolio/svg/design.svg',
       description:
         'Conocimiento en la creación de interfaces de usuario intuitivas y atractivas, siempre pensando en la mejor experiencia para el usuario.',
     },
     {
       title: 'Desarrollo Frontend',
-      image: '/svg/frontend.svg',
+      image: './Portfolio/svg/frontend.svg',
       description:
         'Conocimiento en el desarrollo de interfaces web modernas y responsivas empleando tecnologías como Angular, HTML, CSS y JavaScript.',
     },
     {
       title: 'Desarrollo Backend',
-      image: '/svg/backend.svg',
+      image: './Portfolio/svg/backend.svg',
       description:
         'Experiencia con Laravel, Node.js y bases de datos tanto relacionales como no relacionales, garantizando sistemas robustos y eficientes.',
     },
     {
       title: 'Desarrollo Android',
-      image: '/svg/mobile.svg',
+      image: './Portfolio/svg/mobile.svg',
       description:
         'Habilidades en desarrollo Android utilizando MVVM, Kotlin, Firebase, Jetpack Compose y XML para crear aplicaciones atractivas y funcionales.',
     },
     {
       title: 'Análisis de datos',
-      image: '/svg/data.svg',
+      image: './Portfolio/svg/data.svg',
       description:
         'Habilidad en la gestión y análisis de datos utilizando bases de datos, Power BI y Excel, proporcionando insights valiosos para la toma de decisiones.',
     },

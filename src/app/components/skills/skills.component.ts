@@ -11,75 +11,75 @@ export class SkillsComponent {
   Skills = [
     {
       colorHover: 'hover:drop-shadow-purple',
-      imageSkill: '/svg/angular.svg',
+      imageSkill: './Portfolio/svg/angular.svg',
     },
     {
       colorHover: 'hover:drop-shadow-blue',
-      imageSkill: '/svg/tailwind.svg',
+      imageSkill: './Portfolio/svg/tailwind.svg',
     },
     {
       colorHover: 'hover:drop-shadow-orange',
-      imageSkill: '/svg/html.svg',
+      imageSkill: './Portfolio/svg/html.svg',
     },
     {
       colorHover: 'hover:drop-shadow-blue',
-      imageSkill: '/svg/css.svg',
+      imageSkill: './Portfolio/svg/css.svg',
     },
     {
       colorHover: 'hover:drop-shadow-yellow',
-      imageSkill: '/svg/js.svg',
+      imageSkill: './Portfolio/svg/js.svg',
     },
     {
       colorHover: 'hover:drop-shadow-blue',
-      imageSkill: '/svg/ts.svg',
+      imageSkill: './Portfolio/svg/ts.svg',
     },
     {
       colorHover: 'hover:drop-shadow-orange',
-      imageSkill: '/svg/figma.svg',
+      imageSkill: './Portfolio/svg/figma.svg',
     },
     {
       colorHover: 'hover:drop-shadow-red',
-      imageSkill: '/svg/laravel.svg',
+      imageSkill: './Portfolio/svg/laravel.svg',
     },
     {
       colorHover: 'hover:drop-shadow-lightgreen',
-      imageSkill: '/svg/nodejs.svg',
+      imageSkill: './Portfolio/svg/nodejs.svg',
     },
     {
       colorHover: 'hover:drop-shadow-blue',
-      imageSkill: '/svg/postgresql.svg',
+      imageSkill: './Portfolio/svg/postgresql.svg',
     },
     {
       colorHover: 'hover:drop-shadow-darkgreen',
-      imageSkill: '/svg/mongodb.svg',
+      imageSkill: './Portfolio/svg/mongodb.svg',
     },
     {
       colorHover: 'hover:drop-shadow-purple',
-      imageSkill: '/svg/kotlin.svg',
+      imageSkill: './Portfolio/svg/kotlin.svg',
     },
     {
       colorHover: 'hover:drop-shadow-white',
-      imageSkill: '/svg/jetpackCompose.svg',
+      imageSkill: './Portfolio/svg/jetpackCompose.svg',
     },
     {
       colorHover: 'hover:drop-shadow-yellow',
-      imageSkill: '/svg/firebase.svg',
+      imageSkill: './Portfolio/svg/firebase.svg',
     },
     {
       colorHover: 'hover:drop-shadow-red',
-      imageSkill: '/svg/xml.svg',
+      imageSkill: './Portfolio/svg/xml.svg',
     },
     {
       colorHover: 'hover:drop-shadow-yellow',
-      imageSkill: '/svg/powerBi.svg',
+      imageSkill: './Portfolio/svg/powerBi.svg',
     },
     {
       colorHover: 'hover:drop-shadow-darkgreen',
-      imageSkill: '/svg/excel.svg',
+      imageSkill: './Portfolio/svg/excel.svg',
     },
     {
       colorHover: 'hover:drop-shadow-blue',
-      imageSkill: '/svg/bd.svg',
+      imageSkill: './Portfolio/svg/bd.svg',
     },
   ];
 }
