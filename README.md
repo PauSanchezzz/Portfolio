@@ -47,7 +47,7 @@ npm install
 ng serve
 ```
 
-![Imagen proyecto](https://github.com/PauSanchezzz/Portfolio/assets/122471751/ca7caf93-4e21-4e77-856a-b249e0c39094)
+![imagen proyecto](https://github.com/user-attachments/assets/8e363683-6a43-4a3f-9f5d-102b98d5772f)
 ![imagen proyecto](https://github.com/PauSanchezzz/Portfolio/assets/122471751/c7cc2d6e-83a1-469f-8619-4c54e9878359)
 ![imagen proyecto](https://github.com/PauSanchezzz/Portfolio/assets/122471751/0af3090c-b0b9-4f9a-b93e-c36d8f76e9c6)
 ![imagen proyecto](https://github.com/PauSanchezzz/Portfolio/assets/122471751/8b6a670c-05dc-44c4-a3d1-edf84d4c743a)
