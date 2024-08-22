@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build":"ng build --configuration production --base-href /portfolio/",
+    "build": "ng build --configuration production --base-href /portfolio/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:portfolio": "node dist/portfolio/server/server.mjs"
@@ -25,6 +25,7 @@
     "gsap": "^3.12.5",
     "rxjs": "~7.8.0",
     "split-text-js": "^1.0.3",
+    "t-writer.js": "^1.0.4",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },
